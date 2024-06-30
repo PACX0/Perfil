@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <title>Meu Portfólio</title>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a id="navbar-user-name" class="navbar-brand text-uppercase" href="index.html"><b>Nome do Usuário</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#repositorio"><b>Repositórios</b></a>
+                    <a class="nav-link" href="#conteudo"><b>Conteúdo sugerido</b></a>
+                    <a class="nav-link" href="#colega"><b>Colegas</b></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar-->
+
+    <!--Perfil-->
+    <br>
+    <h3 class="text-center mt-4">Perfil</h3>
+    <hr>
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img id="profile-image" src="" class="img-fluid rounded-circle" alt="Profile Image" style="width: 230px; height: 250px;">
+            </div>
+            <div class="col-md-8">
+                <div class="card border-0">
+                    <div class="card-body">
+                        <h3 id="profile-name" class="card-title text-primary"></h3>
+                        <p id="profile-bio" class="card-text"></p>
+                        <p id="profile-location" class="card-text"><b>Localização:</b></p>
+                        <div class="d-flex justify-content-start mt-4">
+                            <div class="d-flex align-items-center me-4">
+                                <i class="bi bi-person"></i>
+                                <p id="profile-followers" class="mb-0"></p>
+                            </div>
+                            <div class="d-flex align-items-center me-4">
+                                <a id="github-link" href="" target="_blank">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-center me-4">
+                                <a href="mailto:almeida.p2002@gmail.com" class="mx-2">
+                                    <i class="bi bi-envelope"></i>
+                                </a>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <a href="https://x.com/PedroAugus32555" target="_blank">
+                                    <i class="bi bi-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Perfil-->
+
+    <!--Repositórios-->
+    <h3 class="text-center mt-4" id="repositorio">Repositórios</h3>
+    <hr>
+    <div class="container my-3">
+        <div class="row" id="repos-container">
+            <!-- Os cards dos repositórios serão inseridos aqui -->
+        </div>
+    </div>
+    <!--Repositórios-->
+
+    <!--Conteúdo Sugerido-->
+    <h3 class="text-center mt-4" id="conteudo">Conteúdo Sugerido</h3>
+    <hr>
+    <div id="carouselExampleCaptions" class="carousel slide mx-4" data-bs-ride="carousel" data-bs-interval="3000">
+        <div class="carousel-indicators" id="carousel-indicators">
+            <!-- Botões dos indicadores serão inseridos aqui -->
+        </div>
+        <div class="carousel-inner" id="carousel-inner">
+            <!-- Itens do carrossel serão inseridos aqui -->
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!--Conteúdo Sugerido-->
+
+    <!--Colegas-->
+    <h3 class="text-center mt-4" id="colega">Colegas de Trabalho</h3>
+    <hr>
+    <div class="container my-3">
+        <div class="row justify-content-center" id="colleagues-container">
+            <!-- Os cards dos colegas serão inseridos aqui -->
+        </div>
+    </div>
+    <!--Colegas-->
+    <footer class="bg-light text-center py-4 mt-4">
+        <div class="container">
+            <div class="card-footer text-muted">
+                &copy; 2002-2022 Pedro Augusto - All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>

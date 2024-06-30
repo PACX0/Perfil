@@ -1,0 +1,56 @@
+{
+  "contents": [
+    {
+      "image": "assets/img/thtml.png",
+      "title": "Recursos gratuitos 🌈",
+      "description": "Recursos para ajudar no desenvolvimento de aplicações.",
+      "link": "https://github.com/iuricode/recursos-gratuitos"
+    },
+    {
+      "image": "assets/img/tcss.png",
+      "title": "📒 Coleção de Ideias de Aplicativos",
+      "description": "Você já quis construir algo, mas não tinha ideia do que fazer? Assim como os autores às vezes têm 'bloqueio de escritores', isso também é verdade para os desenvolvedores. Esta lista destina-se a resolver este problema de uma vez por todas! 👍",
+      "link": "https://github.com/florinpop17/app-ideas"
+    },
+    {
+      "image": "assets/img/tjs.png",
+      "title": "Hackernoon",
+      "description": "Os 19 repositórios GitHub úteis que você precisa para se tornar um desenvolvedor melhor 🔥🚀",
+      "link": "https://hackernoon.com/pt/os-19-reposit%C3%B3rios-%C3%BAteis-do-GitHub-que-voc%C3%AA-precisa-para-se-tornar-um-desenvolvedor-melhor"
+    },
+    {
+      "image": "assets/img/tjson.png",
+      "title": "Free Camp",
+      "description": "freeCodeCamp.org é uma comunidade amigável onde você pode aprender a programar gratuitamente. Ele é administrado por uma instituição de caridade 501(c)(3) apoiada por doadores para ajudar milhões de adultos ocupados na transição para a tecnologia. Nossa comunidade já ajudou mais de 40.000 pessoas a conseguirem seu primeiro emprego como desenvolvedor.",
+      "link": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    {
+      "image": "assets/img/tmenor.jpg",
+      "title": "JavaScript30",
+      "description": "Arquivos iniciais + Soluções concluídas para o Desafio de 30 dias em JavaScript.",
+      "link": "https://github.com/wesbos/JavaScript30"
+    }
+  ],
+  "colleagues": [
+    {
+      "username": "Pablomarquesc",
+      "name": "Pablo Marques",
+      "image": "https://avatars.githubusercontent.com/Pablomarquesc"
+    },
+    {
+      "username": "AllanJunio",
+      "name": "Allan Junio",
+      "image": "https://avatars.githubusercontent.com/AllanJunio"
+    },
+    {
+      "username": "ieiou",
+      "name": "Yalle",
+      "image": "https://avatars.githubusercontent.com/ieiou"
+    },
+    {
+      "username": "thiagomarquestri",
+      "name": "Thiago Marques",
+      "image": "https://avatars.githubusercontent.com/thiagomarquestri"
+    }
+  ]
+}
